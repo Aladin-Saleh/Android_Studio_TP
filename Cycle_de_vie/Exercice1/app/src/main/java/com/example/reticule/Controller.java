@@ -37,7 +37,6 @@ public class Controller implements View.OnTouchListener {
         {
             imageV.setX(event.getX());
             imageV.setY(event.getY());
-            Log.d("clic", "move x = " + event.getX() + "; y = " + event.getY());
         }
 
         return true;
