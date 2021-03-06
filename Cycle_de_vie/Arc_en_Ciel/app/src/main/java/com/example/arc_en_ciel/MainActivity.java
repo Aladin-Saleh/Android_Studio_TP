@@ -17,6 +17,7 @@ public class MainActivity extends Activity {
         View v = findViewById(R.id.viewB);
         Button button = findViewById(R.id.buttonAEC);
 
+
         ColorAECGestion cAE = new ColorAECGestion();
         Controller c = new Controller(v,cAE);
 
@@ -25,6 +26,8 @@ public class MainActivity extends Activity {
         v.setOnTouchListener(c);
 
     }
+
+
 
 
 }
