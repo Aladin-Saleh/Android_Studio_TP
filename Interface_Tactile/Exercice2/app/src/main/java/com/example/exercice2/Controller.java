@@ -11,10 +11,17 @@ import androidx.core.view.GestureDetectorCompat;
 
 public class Controller implements View.OnTouchListener{
 
+
+    private GestureDetector gestureDetector;
+    public Controller(GestureDetector gestD)
+    {
+        this.gestureDetector = gestD;
+    }
+
     @Override
     public boolean onTouch(View v, MotionEvent event) {
-        v.setBackgroundColor(Color.BLUE);
-        return false;
+        return gestureDetector.onTouchEvent(event);
+
     }
 
 }

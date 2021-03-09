@@ -7,19 +7,19 @@ import android.view.View;
 
 import androidx.core.content.ContextCompat;
 
-public class BController extends Activity implements View.OnClickListener {
+public class BController implements View.OnClickListener {
 
 
-    public BController()
+    private Activity mainActivity;
+    public BController(Activity activity)
     {
+            this.mainActivity = activity;
     }
 
     @Override
     public void onClick(View v) {
-
         Log.d("clic", "Button");
-        Intent nActivity = new Intent(getApplicationContext(), MainActivityParam.class);
-        startActivity(nActivity);
+        mainActivity.startActivity(new Intent(mainActivity, MainActivityParam.class));
     }
 
 

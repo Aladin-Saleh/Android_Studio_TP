@@ -4,8 +4,12 @@ import android.graphics.Color;
 
 public class ColorAECGestion {
 
+    private int orange = Color.rgb(255,165,0);
+    private int violet = Color.rgb(255,0,255);
 
-    private int colorsContainer[] = {Color.BLUE,Color.RED,Color.YELLOW,Color.GREEN,Color.rgb(255,0,255),Color.rgb(255,165,0)};
+    private int colorsContainer[] = {Color.RED,orange,Color.YELLOW,Color.GREEN,Color.BLUE,violet};
+
+
     private boolean isActiveColors[] = {true,true,true,true,true,true,};
     private int colorCount = colorsContainer.length;
 
