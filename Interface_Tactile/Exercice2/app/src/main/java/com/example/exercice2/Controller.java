@@ -21,7 +21,6 @@ public class Controller implements View.OnTouchListener{
     @Override
     public boolean onTouch(View v, MotionEvent event) {
         return gestureDetector.onTouchEvent(event);
-
     }
 
 }

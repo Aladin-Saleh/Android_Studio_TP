@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/A"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:text="A"
+
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/T"
+        android:layout_toRightOf="@+id/A"
+        android:layout_marginTop="50dp"
+        android:text="T"
+        />
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/C"
+        android:layout_below="@+id/A"
+        android:layout_marginLeft="50dp"
+        android:text="C"
+        />
+
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_toRightOf="@+id/A"
+        android:layout_below="@id/T"
+        android:id="@+id/G"
+        android:text="G"
+        />
+
+    <TextView
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:id="@+id/textInput"
+        android:layout_below="@+id/C"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_blue_light"
+        android:layout_marginTop="15dp"
+        android:textColor="@android:color/holo_red_dark"
+        />
+
+
+
+
+
+</RelativeLayout>

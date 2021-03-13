@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<PreferenceCategory
+    android:title="Bouton Actif">
+
+    <CheckBoxPreference
+        android:title="Bouton A"
+        android:key="A"
+        android:defaultValue="true"
+        android:summaryOn="Le bouton est actif"
+        android:summaryOff="Le buton est désactiver"
+        />
+    <CheckBoxPreference
+        android:title="Bouton T"
+        android:key="T"
+        android:defaultValue="true"
+        android:summaryOn="Le bouton est actif"
+        android:summaryOff="Le buton est désactiver"
+        />
+    <CheckBoxPreference
+        android:title="Bouton C"
+        android:key="C"
+        android:defaultValue="true"
+        android:summaryOn="Le bouton est actif"
+        android:summaryOff="Le buton est désactiver"
+        />
+    <CheckBoxPreference
+        android:title="Bouton C"
+        android:key="C"
+        android:defaultValue="true"
+        android:summaryOn="Le bouton est actif"
+        android:summaryOff="Le buton est désactiver"
+        />
+
+
+</PreferenceCategory>
+
+</PreferenceScreen>
